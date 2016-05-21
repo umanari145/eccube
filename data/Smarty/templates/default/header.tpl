@@ -24,7 +24,7 @@
 <div id="header_wrap">
     <div id="header" class="clearfix">
         <div id="logo_area">
-            <p id="site_description">EC-CUBE発!世界中を旅して見つけた立方体グルメを立方隊長が直送！</p>
+            <p id="site_description">厳選したかわいいJKのアダルト動画を厳選して集めました</p>
             <h1>
                 <a href="<!--{$smarty.const.TOP_URLPATH}-->"><img src="<!--{$TPL_URLPATH}-->img/common/logo.gif" alt="EC-CUBE ONLINE SHOPPING SITE" /><span><!--{$arrSiteInfo.shop_name|h}-->/<!--{$tpl_title|h}--></span></a>
             </h1>
@@ -47,6 +47,7 @@
             <!--{/if}-->
             <!--{* ▲HeaderInternal COLUMN*}-->
             </div>
+            <!--
             <div id="header_navi">
                 <ul>
                     <li class="mypage">
@@ -60,6 +61,7 @@
                     </li>
                 </ul>
             </div>
+            -->
         </div>
     </div>
 </div>
