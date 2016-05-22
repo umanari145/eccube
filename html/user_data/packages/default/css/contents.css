@@ -219,8 +219,15 @@ div#undercolumn_error .message_area .error {
 ----------------------------------------------- */
 div.list_area {
     padding: 0 0 30px 0;
-    width: 100%;
+    width: 20%;
     overflow: auto;
+}
+
+div.list_area h3{
+    margin-top:5px;
+    line-height:1.6em;
+	clear:both;
+	font-size:10px;
 }
 
 div.listphoto {
@@ -348,8 +355,30 @@ div.listrightbloc .cartin_btn {
     width: 100%;
 }
 
+#detailarea h2{
+	font-size:18pt;
+}
 /* レイアウト
 ----------------------------------------------- */
+div#detailleft{
+	margin-top:20px;
+	width:100%;
+	float:left;
+}
+
+div#category_area{
+    margin-top:15px;
+}
+
+.category_button a{
+	color:#fff;
+    text-decoration:none;
+}
+
+.category_button a:hover{
+    text-decoration:none;
+}
+
 /* 1カラム用 */
 #one_maincolumn div#detailphotobloc {
     width: 37%;

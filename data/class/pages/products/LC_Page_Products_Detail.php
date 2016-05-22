@@ -124,7 +124,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
         // 規格2が設定されている
         $this->tpl_classcat_find2 = $objProduct->classCat2_find[$product_id];
 
-        $this->tpl_stock_find = $objProduct->stock_find[$product_id];
+        //$this->tpl_stock_find = $objProduct->stock_find[$product_id];
         $this->tpl_product_class_id = $objProduct->classCategories[$product_id]['__unselected']['__unselected']['product_class_id'];
         $this->tpl_product_type = $objProduct->classCategories[$product_id]['__unselected']['__unselected']['product_type'];
 
@@ -485,8 +485,8 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
 
     /**
      * Add product(s) into the cart.
-     * 
-     * @return void 
+     *
+     * @return void
      */
     function doCart() {
         $this->arrErr = $this->lfCheckError($this->mode,$this->objFormParam,
@@ -507,7 +507,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
     /**
      * Add product to authenticated user's favorites.
      *
-     * @param type $objCustomer 
+     * @param type $objCustomer
      * @return void
      */
     function doAddFavorite(&$objCustomer) {
@@ -529,7 +529,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
     /**
      * Add product to authenticated user's favorites. (for Smart phone)
      *
-     * @param type $objCustomer 
+     * @param type $objCustomer
      * @return void
      */
     function doAddFavoriteSphone($objCustomer) {
@@ -552,9 +552,9 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
     }
 
     /**
-     * 
-     * 
-     * @return void 
+     *
+     *
+     * @return void
      */
     function doDefault() {
         // カート「戻るボタン」用に保持
@@ -563,7 +563,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
     }
 
     /**
-     * 
+     *
      * @return void
      */
     function doMobileSelect() {
@@ -580,7 +580,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
 
     /**
      *
-     * @return type 
+     * @return type
      */
     function doMobileSelect2() {
         $this->arrErr = $this->lfCheckError($this->mode,$this->objFormParam,$this->tpl_classcat_find1,$this->tpl_classcat_find2);
@@ -604,7 +604,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
     }
 
     /**
-     * 
+     *
      * @return void
      */
     function doMobileSelectItem() {
@@ -647,7 +647,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
 
     /**
      *
-     * @return void 
+     * @return void
      */
     function doMobileCart() {
         // この段階でエラーが出る場合は、数量の入力エラーのはず
@@ -659,7 +659,7 @@ class LC_Page_Products_Detail extends LC_Page_Ex {
 
     /**
      *
-     * @return void 
+     * @return void
      */
     function doMobileDefault() {
         $this->tpl_mainpage = 'products/detail.tpl';

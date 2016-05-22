@@ -26,7 +26,7 @@
     <p>JavaScript を有効にしてご利用下さい.</p>
 </noscript>
 
-<div class="frame_outer">
+<div class="frame_outer container">
     <a name="top" id="top"></a>
 
     <!--{* ▼HeaderHeaderTop COLUMN*}-->
