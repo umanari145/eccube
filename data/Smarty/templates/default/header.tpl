@@ -25,7 +25,7 @@
     <div id="header" class="clearfix">
         <div id="logo_area">
             <p id="site_description">厳選したかわいいJKのアダルト動画を厳選して集めました</p>
-            <h1>JK-collection</h1>
+            <a href="<!--{$smarty.const.HTTP_URL}-->"><h1>JK-collection</h1></a>
         </div>
         <div id="header_utility">
             <div id="headerInternalColumn">
@@ -45,21 +45,24 @@
             <!--{/if}-->
             <!--{* ▲HeaderInternal COLUMN*}-->
             </div>
-            <!--
+
             <div id="header_navi">
                 <ul>
+                    <!--
                     <li class="mypage">
                         <a href="<!--{$smarty.const.HTTPS_URL}-->mypage/login.php" onmouseover="chgImg('<!--{$TPL_URLPATH}-->img/common/btn_header_mypage_on.jpg','mypage');" onmouseout="chgImg('<!--{$TPL_URLPATH}-->img/common/btn_header_mypage.jpg','mypage');"><img src="<!--{$TPL_URLPATH}-->img/common/btn_header_mypage.jpg" alt="MYページ" name="mypage" id="mypage" /></a>
                     </li>
                     <li class="entry">
                         <a href="<!--{$smarty.const.ROOT_URLPATH}-->entry/kiyaku.php" onmouseover="chgImg('<!--{$TPL_URLPATH}-->img/common/btn_header_entry_on.jpg','entry');" onmouseout="chgImg('<!--{$TPL_URLPATH}-->img/common/btn_header_entry.jpg','entry');"><img src="<!--{$TPL_URLPATH}-->img/common/btn_header_entry.jpg" alt="会員登録" name="entry" id="entry" /></a>
                     </li>
+
                     <li>
                         <a href="<!--{$smarty.const.CART_URLPATH}-->" onmouseover="chgImg('<!--{$TPL_URLPATH}-->img/common/btn_header_cart_on.jpg','cartin');" onmouseout="chgImg('<!--{$TPL_URLPATH}-->img/common/btn_header_cart.jpg','cartin');"><img src="<!--{$TPL_URLPATH}-->img/common/btn_header_cart.jpg" alt="カゴの中を見る" name="cartin" id="cartin" /></a>
                     </li>
+                    -->
                 </ul>
             </div>
-            -->
+
         </div>
     </div>
 </div>

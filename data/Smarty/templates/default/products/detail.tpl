@@ -113,6 +113,7 @@
     <!--▲サブコメント-->
 
     <!--この商品に対するお客様の声-->
+    <!--
     <div id="customervoice_area">
         <h2><img src="<!--{$TPL_URLPATH}-->img/title/tit_product_voice.jpg" alt="この商品に対するお客様の声" /></h2>
 
@@ -121,11 +122,13 @@
             <div class="review_btn">
                 <!--{if count($arrReview) < $smarty.const.REVIEW_REGIST_MAX}-->
                     <!--★新規コメントを書き込む★-->
+                    <!--
                     <a href="./review.php"
                         onclick="win02('./review.php?product_id=<!--{$arrProduct.product_id}-->','review','600','640'); return false;"
                         onmouseover="chgImg('<!--{$TPL_URLPATH}-->img/button/btn_comment_on.jpg','review');"
                         onmouseout="chgImg('<!--{$TPL_URLPATH}-->img/button/btn_comment.jpg','review');" target="_blank">
                         <img src="<!--{$TPL_URLPATH}-->img/button/btn_comment.jpg" alt="新規コメントを書き込む" name="review" id="review" /></a>
+                    -->
                 <!--{/if}-->
             </div>
         </div>
